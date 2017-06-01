@@ -67,6 +67,7 @@ git remote -r # List all remote (Github) branches. You should see origin/yourfir
 git checkout origin/yourfirstnamelastname -b local-branch-name
 ```
 
-3. Move your picture from gitnoobs folder to gitmasters folder. If your picture is not there (new peeps sorry :<), feel free to add any other image to the gitmasters folder
-4. Commit the change, and push it to your remote branch (**NOT MASTER**)
-5. Create a pull request on Github
+### 4.3. Make a pull request
+1. Move your picture from gitnoobs folder to gitmasters folder. If your picture is not there (new peeps sorry :<), feel free to add any other image to the gitmasters folder
+2. Commit the change, and push it to your remote branch (**NOT MASTER**)
+3. Create a pull request on Github
