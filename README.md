@@ -2,7 +2,7 @@
 ## 1. Starting from scratch
 
 ### 1.1 Create a new git repository  
-Create an empty folder, and a new git repository within it.
+1. Create an empty folder, and a new git repository within it.
 
 ### 1.2 Add README to the repository
 1. Create a new README file, and add some content there (a triceratops maybe?). 
@@ -19,18 +19,26 @@ Create an empty folder, and a new git repository within it.
 1. Make two more commits, which contain changes to existing files, or creation of new files.
 
 ### 2.2 Inspect all of the history
-1. Inspect the commit log using the appropriate git command
-
+1. Inspect the commit log using the appropriate git command  
+![Full log](/refpics/git-log.png)  
+Expected outcome
 ### 2.3 Inspect only parts of the log
 1. Use git commit syntax to inspect log with
-    - Only the latest commit (HEAD of the branch)
-    - Two of the latest commits
-    - Commits from COMMIT_X to COMMIT_Y
-    - Commits from COMMIT_X (excluding) to COMMIT_Y
+    Expected outcome
+    - Only the latest commit (HEAD of the branch)  
+    ![HEAD](/refpics/git-log-head.png)  
+    Expected outcome
+    - Commits from FIRST_COMMIT (excluding it) to LAST_COMMIT  
+    ![X to y excluding](/refpics/git-log.png)  
+    Expected outcome
     
 ### 2.4 Revert changes
-1. Revert changes applied in 2.1., without removing the commits
-2. Remove the commit made in the previous step
+1. Revert changes applied in 2.1., without removing the commits  
+![Revert](/refpics/git-revert.png)  
+Expected outcome
+2. Remove the commit made in the previous step  
+![Back in history](/refpics/git-log.png)  
+Expected outcome
 
 ## 3 Merging and branching
 
@@ -70,7 +78,6 @@ git checkout origin/yourfirstnamelastname -b local-branch-name
 ### 4.3. Make a pull request
 1. Move your picture from gitnoobs folder to gitmasters folder. If your picture is not there (new peeps sorry :<), feel free to add any other image to the gitmasters folder
 2. Commit the change, and push it to your remote branch (**NOT MASTER**)
-3. Create a pull request on Github
-
+3. Create a pull request on Github  
 ![Pull request](/refpics/github-prs.png)  
 ![Comparison](/refpics/github-comparison.png)
