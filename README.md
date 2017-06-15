@@ -13,33 +13,6 @@
 2. Set the repository address as a remote for the local git repo
 3. Push the local repo to the remote Github repo
 
-## 2 Working with history
-
-### 2.1 More history pls!
-1. Make two more commits, which contain changes to existing files, or creation of new files.
-
-### 2.2 Inspect all of the history
-1. Inspect the commit log using the appropriate git command  
-![Full log](/refpics/git-log.png)  
-Expected outcome
-### 2.3 Inspect only parts of the log
-1. Use git commit syntax to inspect log with
-    Expected outcome
-    - Only the latest commit (HEAD of the branch)  
-    ![HEAD](/refpics/git-log-head.png)  
-    Expected outcome
-    - Commits from FIRST_COMMIT (excluding it) to LAST_COMMIT  
-    ![X to y excluding](/refpics/git-log.png)  
-    Expected outcome
-    
-### 2.4 Revert changes
-1. Revert changes applied in 2.1., without removing the commits  
-![Revert](/refpics/git-revert.png)  
-Expected outcome
-2. Remove the commit made in the previous step  
-![Back in history](/refpics/git-log.png)  
-Expected outcome
-
 ## 3 Merging and branching
 
 ### 3.1. Basic branching
